@@ -1,0 +1,115 @@
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eaecee ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contendor-form{
+    width: 30%;
+    height: 60%;
+    gap: 10px;
+    background-color: #fdfefe ;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+label{
+    
+    width: 100%;
+}
+
+input{
+    gap: 10px;
+    background-color: #f8f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(122, 0, 221);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+input:hover{
+    border-color: blueviolet;
+}
+
+#suma{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #d7bde2;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#resta{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #d7bde2;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#multi{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #d7bde2;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#divi{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #d7bde2;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#limpiar{
+    width: 100%;
+    border-radius: 30px;
+    background-color: #d7bde2;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#suma:hover{
+    background-color: #c39bd3;
+}
+#resta:hover{
+    background-color: #c39bd3;
+}
+#multi:hover{
+    background-color: #c39bd3;
+}
+#divi:hover{
+    background-color: #c39bd3;
+}
+
+
+#limpiar:hover{
+    background-color: #c39bd3;
+}
+
+
